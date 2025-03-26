@@ -40,11 +40,55 @@ function addNumbers (a , b){
 // console.log(islogin("Aniruddha"));
 
 
-function islogin(username){
-    if(!undefined){
-        console.log("please enter a username ");
+// function islogin(username){
+//     if(!undefined){
+//         console.log("please enter a username ");
         
-    }
-    return `${username} just logged in `
+//     }
+//     return `${username} just logged in `
+// }
+// console.log(islogin());
+
+function calculatecartprice(...num){
+    return num
+
 }
-console.log(islogin());
+// console.log(calculatecartprice(2,34,34,32,45,54,34));
+
+//output
+// [
+//     2, 34, 34, 32,
+//    45, 54, 34
+//  ]
+
+
+//object handel method 
+
+
+const user = {
+    username : "Aniruddha",
+    Price : 200
+}
+
+function handelobject(anyobject){
+    console.log(`username is ${anyobject.username} and price is ${anyobject.Price}`);
+    
+}
+
+// handelobject(user)
+
+//another way to call 
+
+// handelobject({
+//     username:"sam",
+//     Price: 399
+// })
+
+
+const myNewArray = [200, 300, 400, 600]
+
+function getarrvalue(getvalue){
+    return getvalue[3]
+}
+
+console.log(getarrvalue(myNewArray));
